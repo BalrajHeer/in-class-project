@@ -1,22 +1,13 @@
 {
-  "name": "in-class-project",
+  "name": "api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BalrajHeer/in-class-project.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BalrajHeer/in-class-project/issues"
-  },
-  "homepage": "https://github.com/BalrajHeer/in-class-project#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2"
   }
