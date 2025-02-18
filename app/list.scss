@@ -1,0 +1,27 @@
+// Import Bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: #f5f7fa;
+}
+
+table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    th, td {
+        text-align: center;
+    }
+
+    tbody tr:hover {
+        background-color: #d3d3d3;
+        cursor: pointer;
+    }
+}
+
+.pagination .page-link {
+    color: #007BFF;
+    &:hover {
+        background-color: #007BFF;
+        color: white;
+    }
+}
